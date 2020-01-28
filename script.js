@@ -1,3 +1,6 @@
+screen.lockOrientation('landscape');
+
+
 let interface = true;
 
 $('.hide').click(function () {
