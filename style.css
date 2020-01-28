@@ -1,0 +1,120 @@
+*{
+    color: white;
+    font-size: 20pt;
+    font-family: "Gill Sans MT";
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#interface{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#game{
+    height: 1920px;
+    background-image: url("pics/backtest.jpg");
+    width: 2569px;
+}
+
+.btn {
+    border: 2px solid white;
+    cursor: pointer;
+    text-align: center;
+    background: grey;
+}
+
+.B1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.B2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.C1, .C2{
+    display: flex;
+    flex-direction: column;
+}
+
+.B3{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.B4{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    width: 37%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+.profile{
+    width: 60%;
+    margin-right: 3px;
+    height: 60px;
+}
+.dollars{
+    width: 30%;
+    margin-right: 3px;
+}
+.hide{
+    width: 10%;
+}
+.C1{
+    width: 40%;
+}
+.C2{
+    width: 30%;
+}
+.chat{
+    width: 70%;
+    height: 40px;
+}
+.sets{
+    width: 30%;
+    margin-left: 3px;
+}
+.recruits{
+    margin-top: 5px;
+    height: 50px;
+}
+.coins{
+    height: 40px;
+}
+.base{
+    margin-top: 5px;
+    height: 40px;
+}
+.map{
+    height: 40px;
+}
+.equips{
+    height: 50px;
+}
