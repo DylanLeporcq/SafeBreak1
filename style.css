@@ -4,6 +4,12 @@
     font-family: "Gill Sans MT";
 }
 
+@media only screen and (orientation:portrait){
+    body {
+        transform: rotate(90deg);
+    }
+}
+
 html, body{
     margin: 0;
     padding: 0;
